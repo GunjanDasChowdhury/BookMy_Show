@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="19" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-21T18:13:52 IST" name="Display all Sports activities available in your city" finished-at="2022-04-21T18:15:02 IST" duration-ms="69905">
+    <groups>
+    </groups>
+    <test started-at="2022-04-21T18:13:52 IST" name="FunctionalTesting" finished-at="2022-04-21T18:15:02 IST" duration-ms="69905">
+      <class name="com.BookMyShowPage.Movies">
+        <test-method signature="openUrl()[pri:1, instance:com.BookMyShowPage.Movies@4f18837a]" started-at="2022-04-21T18:14:57 IST" name="openUrl" finished-at="2022-04-21T18:14:59 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="selectMoviePage()[pri:8, instance:com.BookMyShowPage.Movies@4f18837a]" started-at="2022-04-21T18:14:59 IST" name="selectMoviePage" finished-at="2022-04-21T18:15:00 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMoviePage -->
+        <test-method signature="extractMovieLang()[pri:9, instance:com.BookMyShowPage.Movies@4f18837a]" started-at="2022-04-21T18:15:00 IST" name="extractMovieLang" finished-at="2022-04-21T18:15:01 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractMovieLang -->
+      </class> <!-- com.BookMyShowPage.Movies -->
+      <class name="com.BookMyShowPage.SignIn">
+        <test-method signature="openUrl()[pri:1, instance:com.BookMyShowPage.SignIn@359f7cdf]" started-at="2022-04-21T18:15:01 IST" name="openUrl" finished-at="2022-04-21T18:15:01 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="selectSignin()[pri:10, instance:com.BookMyShowPage.SignIn@359f7cdf]" started-at="2022-04-21T18:15:01 IST" name="selectSignin" finished-at="2022-04-21T18:15:02 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSignin -->
+      </class> <!-- com.BookMyShowPage.SignIn -->
+      <class name="com.BaseUD.BaseUd">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:com.BaseUD.BaseUd@7334aada]" started-at="2022-04-21T18:13:51 IST" name="driverSetup" finished-at="2022-04-21T18:13:52 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="openUrl()[pri:1, instance:com.BaseUD.BaseUd@7334aada]" started-at="2022-04-21T18:13:53 IST" name="openUrl" finished-at="2022-04-21T18:13:55 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BaseUD.BaseUd@7334aada]" started-at="2022-04-21T18:15:02 IST" name="closeBrowser" finished-at="2022-04-21T18:15:03 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.BaseUD.BaseUd -->
+      <class name="com.BookMyShowPage.FindSports">
+        <test-method signature="openUrl()[pri:1, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:13:55 IST" name="openUrl" finished-at="2022-04-21T18:13:56 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="cancelPopUp()[pri:2, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:13:56 IST" name="cancelPopUp" finished-at="2022-04-21T18:14:00 IST" duration-ms="4600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelPopUp -->
+        <test-method signature="selectCity()[pri:3, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:14:00 IST" name="selectCity" finished-at="2022-04-21T18:14:02 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="selectSportPage()[pri:4, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:14:02 IST" name="selectSportPage" finished-at="2022-04-21T18:14:02 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSportPage -->
+        <test-method signature="selectWeekend()[pri:5, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:14:02 IST" name="selectWeekend" finished-at="2022-04-21T18:14:03 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWeekend -->
+        <test-method signature="selectPrice()[pri:6, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:14:03 IST" name="selectPrice" finished-at="2022-04-21T18:14:03 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPrice -->
+        <test-method signature="sortedSportsList()[pri:7, instance:com.BookMyShowPage.FindSports@6356695f]" started-at="2022-04-21T18:14:03 IST" name="sortedSportsList" finished-at="2022-04-21T18:14:57 IST" duration-ms="54133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedSportsList -->
+      </class> <!-- com.BookMyShowPage.FindSports -->
+    </test> <!-- FunctionalTesting -->
+  </suite> <!-- Display all Sports activities available in your city -->
+</testng-results>
